@@ -9,3 +9,6 @@ A console based project which will calculate how much to tip and determine how m
 
 ## Project 3:  Treasure Island
 A console project with the practice of conditional statements, logical operators, code blocks and scope.  The project is a base of a "choose your own adventure" game where the user makes decisions based on questions and scenarios prompted.
+
+## Project 4:  Rock, Paper, Scissors
+Here you will play against the computer the game of rock, paper, scissors done in console.  This project uses the simple practice of randomisation and use of a list.
