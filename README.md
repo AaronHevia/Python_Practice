@@ -12,3 +12,6 @@ A console project with the practice of conditional statements, logical operators
 
 ## Project 4:  Rock, Paper, Scissors
 Here you will play against the computer the game of rock, paper, scissors done in console.  This project uses the simple practice of randomisation, choice conversion to an index, and use of a list.  **Input Validation not yet implemented.**
+
+## Project 5:  Caesar Cipher
+A basic "tool to decrypt/encrypt with Caesar. Caesar cipher (or Caesar code) is a shift cipher, one of the most easy and most famous encryption systems".  This project is written as a console app and practices the use of for loops, range and code blocks.  **Input Validation not yet implemented.**
