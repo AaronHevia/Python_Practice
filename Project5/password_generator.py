@@ -10,7 +10,7 @@ print("Welcome to the PyPassword Generator!")
 number_of_letters = int(input("How many letters would you like in your password?\n"))
 number_of_numbers = int(input("How many numbers would you like in your password?\n"))
 number_of_characters = int(input("How many special characters would you like in your password?\n"))
-total  = number_of_letters + number_of_numbers + numbe_of_characters
+total  = number_of_letters + number_of_numbers + number_of_characters
 password = ""
 
 while total > 0:
