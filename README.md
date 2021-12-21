@@ -14,4 +14,4 @@ A console project with the practice of conditional statements, logical operators
 Here you will play against the computer the game of rock, paper, scissors done in console.  This project uses the simple practice of randomisation, choice conversion to an index, and use of a list.  **Input Validation not yet implemented.**
 
 ## Project 5:  Password Generator
-A basic password generator which will create a random password based on the number of characters required.  This project is written as a console app and practices the use of for loops, range, code blocks, and randomisation.  **Input Validation not yet implemented.**
+A basic password generator which will create a random password based on the number of characters required.  This project is written as a console app and practices the use of loops, range, code blocks, and randomisation.  **Input Validation not yet implemented.**
