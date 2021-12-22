@@ -15,3 +15,6 @@ Here you will play against the computer the game of rock, paper, scissors done i
 
 ## Project 5:  Password Generator
 A basic password generator which will create a random password based on the number of characters required.  This project is written as a console app and practices the use of loops, range, code blocks, and randomisation.  **Input Validation not yet implemented.**
+
+## Project 6:  Maze Escape Challenge
+This project practicces the use of functions and while loops to help "Reeborg" complete the maze from any starting point.  Maze builder can be found:  https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
