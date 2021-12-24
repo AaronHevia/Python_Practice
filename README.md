@@ -21,3 +21,6 @@ This project practicces the use of functions and while loops to help Reeborg com
 
 ## Project 7:  Hangman Project
 Creating a base project of the hangman game in console.  **Future edition can incorporate API to get words from dictionaries vice creating a list of words.  Input Validation not fully implemented.**
+
+## Project 8:  Caesar Cipher
+Console based app which practices use of functions with inputs, arguments, and parameters to create the encryption/decryption algorithm of the ceasar cipher.
