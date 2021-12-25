@@ -9,28 +9,28 @@ def clear_console():
         os.system('clear')
 
 
-bids = []
+bids_list = []
 
 
 def add_bid(bidder, bid):
-    bid = {
+    bid_entry = {
         "bidder": bidder,
         "bid": bid
     }
-    bids.append(bid)
+    bids_list.append(bid_entry)
 
 
 def winning_bid():
     leading_bid = 0
     winner = ""
-    for bid in bids:
+    for bid in bids_list:
         if bid["bid"] > leading_bid:
             leading_bid = bid["bid"]
             winner = bid["bidder"]
     print(f"The winner is {winner} with a bid of ${leading_bid}.")
 
 
-def blind_bid():
+def blind_auction():
     open_bids = True
     while open_bids:
         name = input("What is your name?:  ")
@@ -45,5 +45,5 @@ def blind_bid():
 
 print(logo)
 print("Welcome to the secret auction program.")
-blind_bid()
+blind_auction()
 x = input('press "x" to exit')
