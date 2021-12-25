@@ -26,7 +26,7 @@ def blind_auction():
     open_bids = True
     while open_bids:
         name = input("What is your name?:  ")
-        bid = int(input("What is your bid?:  $"))
+        bid = float(input("What is your bid?:  $"))
         bids[name] = bid
         more_bids = input("Are there any other bidders? Type 'yes' or 'no'.  ").lower()
         clear_console()
