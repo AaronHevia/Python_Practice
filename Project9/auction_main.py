@@ -23,10 +23,10 @@ def add_bid(bidder, bid):
 def winning_bid():
     leading_bid = 0
     winner = ""
-    for bid in bids_list:
-        if bid["bid"] > leading_bid:
-            leading_bid = bid["bid"]
-            winner = bid["bidder"]
+    for entry in bids_list:
+        if entry["bid"] > leading_bid:
+            leading_bid = entry["bid"]
+            winner = entry["bidder"]
     print(f"The winner is {winner} with a bid of ${leading_bid}.")
 
 
