@@ -25,5 +25,5 @@ Creating a base project of the hangman game in console.  **Future edition can in
 ## Project 8:  Caesar Cipher
 Console based app which practices use of functions with inputs, arguments, and parameters to create the encryption/decryption algorithm of the ceasar cipher.  **Input Validation not fully implemented.**
 
-## Project 9:  Secret Auction Program
+## Project 9:  Blind Auction Program
 This project practices the use of programming dictionaries and nesting to create a silent auction program to keep users from knowing what the competition has bid.  **Input Validation not yet implemented.**
