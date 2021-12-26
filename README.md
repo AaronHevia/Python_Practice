@@ -27,3 +27,6 @@ Console based app which practices use of functions with inputs, arguments, and p
 
 ## Project 9:  Blind Auction Program
 This project practices the use of programming dictionaries and nesting to create a silent auction program to keep users from knowing what the competition has bid.  **Input Validation not yet implemented.**
+
+## Project 10:  Calculator
+This project practices the use of functions with outputs.  This is a simple text-based calculator which will calculate the simple functions (add, subtract, multiply, divide).  **Future editions may incorporate additional calculator functionality to further extend proof of concept.  Input Validation not fully implemented.**
