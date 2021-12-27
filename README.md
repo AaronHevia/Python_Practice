@@ -30,3 +30,6 @@ This project practices the use of programming dictionaries and nesting to create
 
 ## Project 10:  Calculator
 This project practices the use of functions with outputs.  This is a simple text-based calculator which will calculate the simple functions (add, subtract, multiply, divide).  **Future editions may incorporate additional calculator functionality to further extend proof of concept.  Input Validation not fully implemented.**
+
+## Project 11:  Blackjack
+Console application of blackjack.  The computer is the dealer.  Currently, set up with one deck.  **Future editions will incorporate multiplayer, additional decks like in the casino, and additional blackjack strategy rules.**
