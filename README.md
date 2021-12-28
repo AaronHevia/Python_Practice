@@ -33,3 +33,6 @@ This project practices the use of functions with outputs.  This is a simple text
 
 ## Project 11:  Blackjack
 Console application of blackjack.  The computer is the dealer.  Currently, set up with infinite deck.  **Future editions will incorporate multiplayer, deck builder and shuffle like in the casinos, and additional blackjack strategy rules (use of currency, split rule, etc.)**
+
+## Project 12:  Number Guessing Game
+Console game which lets the user guess a number within a certain number of guesses.  **Input Validation not yet implemented.**
