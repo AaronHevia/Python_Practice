@@ -11,6 +11,7 @@ def clear_console():
 
 
 def set_difficulty(choice):
+    """Returns the number of attempts possible to guess the correct number."""
     if choice == "easy":
         return 10
     elif choice == "medium":
@@ -20,7 +21,7 @@ def set_difficulty(choice):
 
 
 def check_guess(actual_number, guessed_number):
-
+    """Checks to see if guess is higher or lower than the actual number and prints the result."""
     if guessed_number > actual_number:
         print("\nToo high.  Guess again.")
     elif guessed_number < actual_number:
@@ -28,6 +29,7 @@ def check_guess(actual_number, guessed_number):
 
 
 def reduce_attempt(attempts):
+    """Reduces the number of attempts available and prints how many attempts remain."""
     attempts -= 1
     prompt = "attempts"
     if attempts == 1:
@@ -37,6 +39,7 @@ def reduce_attempt(attempts):
 
 
 def run():
+    """Start of the program."""
     print(logo)
     print("Welcome to the Number Guessing Game!\n")
     print("I'm thinking of a number between 1 and 100.")
