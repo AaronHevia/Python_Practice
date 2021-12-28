@@ -96,12 +96,9 @@ def play_game():
     print(compare(user_score, computer_score, dealer_cards))
 
 
-play_again = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
-
-while play_again == "y":
+while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower() == "y":
     clear_console()
     dealer_cards = []
-    play_again = ""
     play_game()
 
 input("\n\nExit")
