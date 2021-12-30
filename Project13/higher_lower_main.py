@@ -12,11 +12,15 @@ def retrieve_account(account):
     return retrieved_account
 
 
+def format_data(account):
+    return f"{account['name']} - {account['description']} from {account['country']}"
+
+
 def ask(account1, account2):
     """Asks the user to choose who has more followers and returns the option chosen."""
-    print(f"Compare A:  {account1['name']} - {account1['description']} from {account1['country']}")
+    print(f"Compare A:  {format_data(account1)}")
     print(art.vs)
-    print(f"Against B:  {account2['name']} - {account2['description']} from {account2['country']}")
+    print(f"Against B:  {format_data(account2)}")
     choice = input("Who has more followers? Type 'A' or 'B':  ").upper()
     if choice == "A":
         return account1
