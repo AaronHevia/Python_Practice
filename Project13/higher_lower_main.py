@@ -13,7 +13,7 @@ def retrieve_account(account):
 
 
 def format_data(account):
-    """Format the account data into printable format."""
+    """Takes an account data and returns a printable format."""
     return f"{account['name']} - {account['description']} from {account['country']}"
 
 
@@ -61,8 +61,8 @@ account_a = retrieve_account(account_a)
 
 def run(account):
     account_b = retrieve_account(account)
-    correct_answer = compare(account, account_b)
     choice = ask(account, account_b)
+    correct_answer = compare(account, account_b)
     result(choice, correct_answer)
 
 
