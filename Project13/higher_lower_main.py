@@ -13,6 +13,7 @@ def retrieve_account(account):
 
 
 def format_data(account):
+    """Format the account data into printable format."""
     return f"{account['name']} - {account['description']} from {account['country']}"
 
 
