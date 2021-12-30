@@ -4,34 +4,34 @@ import higher_lower_art as art
 import random
 
 
-def retrieve_person(person):
+def retrieve_account(account):
     """Retrieves a random person from database."""
-    retrieved_person = random.choice(data)
-    while retrieved_person == person:
-        retrieved_person = random.choice(data)
-    return retrieved_person
+    retrieved_account = random.choice(data)
+    while retrieved_account == account:
+        retrieved_account = random.choice(data)
+    return retrieved_account
 
 
-def ask(person1, person2):
+def ask(account1, account2):
     """Asks the user to choose who has more followers and returns the option chosen."""
-    print(f"Compare A:  {person1['name']} - {person1['description']} from {person1['country']}")
+    print(f"Compare A:  {account1['name']} - {account1['description']} from {account1['country']}")
     print(art.vs)
-    print(f"Against B:  {person2['name']} - {person2['description']} from {person2['country']}")
+    print(f"Against B:  {account2['name']} - {account2['description']} from {account2['country']}")
     choice = input("Who has more followers? Type 'A' or 'B':  ").upper()
     if choice == "A":
-        return person1
+        return account1
     elif choice == "B":
-        return person2
+        return account2
 
 
-def compare(person1, person2):
+def compare(account1, account2):
     """Returns the person with the higher number of followers.  Comparison is made between 2 people."""
-    p1_followers = person1["follower_count"]
-    p2_followers = person2["follower_count"]
+    p1_followers = account1["follower_count"]
+    p2_followers = account2["follower_count"]
     if p1_followers > p2_followers:
-        return person1
+        return account1
     else:
-        return person2
+        return account2
 
 
 score = 0
@@ -50,17 +50,17 @@ def result(guess, answer):
         print(f"Sorry, that's wrong.  Final score:  {score}")
 
 
-person_a = {}
-person_a = retrieve_person(person_a)
+account_a = {}
+account_a = retrieve_account(account_a)
 
 
-def run(person):
-    person_b = retrieve_person(person)
-    correct_answer = compare(person, person_b)
-    choice = ask(person, person_b)
+def run(account):
+    account_b = retrieve_account(account)
+    correct_answer = compare(account, account_b)
+    choice = ask(account, account_b)
     result(choice, correct_answer)
 
 
 print(art.logo)
-run(person_a)
+run(account_a)
 input("'Enter' to exit.")
