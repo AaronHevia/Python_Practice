@@ -5,7 +5,7 @@ import random
 
 
 def retrieve_account(account):
-    """Retrieves a random person from database."""
+    """Retrieves a random account from database."""
     retrieved_account = random.choice(data)
     while retrieved_account == account:
         retrieved_account = random.choice(data)
@@ -25,7 +25,7 @@ def ask(account1, account2):
 
 
 def compare(account1, account2):
-    """Returns the person with the higher number of followers.  Comparison is made between 2 people."""
+    """Returns the account with the higher number of followers.  Comparison is made between 2 people."""
     p1_followers = account1["follower_count"]
     p2_followers = account2["follower_count"]
     if p1_followers > p2_followers:
