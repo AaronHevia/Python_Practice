@@ -1,5 +1,5 @@
 # Python Practice
-100 Days of Python practice projects with Dr. Angela Yu.  Will return to them once in a while to incorporate additional features and tests.
+100 Days of Python practice projects with Dr. Angela Yu.  Will return to them once in a while to incorporate additional features and tests.  **TODO:  Fix Directory to account Directory of helper_functions (programs outside IDE and ran in CMD close automatically due to this error.)**
 
 ## Project 1:  Band Name Generator
 A simple console project to practice variable naming and string concatenation.  This project creates a band name based on the city the user is born and a pet name.  **Input Validation not yet implemented.**
@@ -41,4 +41,4 @@ Console game which lets the user guess a number within a certain number of guess
 Game which lets the user guess which person has more followers than another then continue until they have guessed wrong.  **Input Validation not yet implemented.  Future iterations may attempt to connect to an API to feed people and follower numbers.**
 
 ## Project 14:  Coffee Vending Machine
-Program which represents a coffee vending machine.  Price will fluctuate depending on ingredients and type of coffee.
+Program which represents a coffee vending machine.  Price will fluctuate depending on ingredients and type of coffee.  **Input Validation not fully implemented.  Future editions to account for money in machine to provide the proper amount of depending on coins in machine.**
