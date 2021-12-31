@@ -1,4 +1,4 @@
-from helper_functions import clear_console
+import helper_functions as hf
 
 MENU = {
     "espresso": {
@@ -46,7 +46,7 @@ def ask():
     if choice == "off":
         return
     elif choice == "report":
-        clear_console()
+        hf.clear_console()
         print_report()
         ask()
     else:
@@ -75,10 +75,12 @@ def make_coffee(coffee):
     return
 
 
+
+
 def run():
     ask()
-    input("Enter to exit.")
 
 
-run()
+
+ask()
 

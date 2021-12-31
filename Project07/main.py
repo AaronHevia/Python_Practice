@@ -1,16 +1,9 @@
-import os
+import helper_functions
 import random
 import hangman_dictionary as dictionary
 import hangman_art as art
 
-
-def clear_console():
-    if os.name in ('ce', 'nt', 'dos'):
-        os.system('cls')
-    elif os.name in ('linux', 'osx', 'posix'):
-        os.system('clear')
-
-
+sys.path.append()
 chosen_word = random.choice(dictionary.word_list)
 
 display = []
@@ -29,7 +22,7 @@ while not game_over:
     print(art.lives[lives])
     print(joined_display)
     guess = input("Guess a letter:  ").lower()
-    clear_console()
+    helper_functions.clear_console()
 
     if guess in guessed_letters:
         print(f"You have already guessed the letter {guess}.  Try again.")
