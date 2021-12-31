@@ -39,3 +39,6 @@ Console game which lets the user guess a number within a certain number of guess
 
 ## Project 13:  Higher or Lower Game
 Game which lets the user guess which person has more followers than another then continue until they have guessed wrong.  **Input Validation not yet implemented.  Future iterations may attempt to connect to an API to feed people and follower numbers.**
+
+## Project 14:  Coffee Vending Machine
+Program which represents a coffee vending machine.  Price will fluctuate depending on ingredients and type of coffee.
