@@ -1,13 +1,7 @@
-import os
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 from auction_art import logo
-
-
-def clear_console():
-    if os.name in ('ce', 'nt', 'dos'):
-        os.system('cls')
-    elif os.name in ('linux', 'osx', 'posix'):
-        os.system('clear')
-
 
 bids = {}
 
@@ -38,4 +32,4 @@ def blind_auction():
 print(logo)
 print("Welcome to the secret auction program.")
 blind_auction()
-x = input('press "x" to exit')
+close()

@@ -1,13 +1,8 @@
-import os
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 import random
 from number_guesser_art import logo
-
-
-def clear_console():
-    if os.name in ('ce', 'nt', 'dos'):
-        os.system('cls')
-    elif os.name in ('linux', 'osx', 'posix'):
-        os.system('clear')
 
 
 def set_difficulty(choice):

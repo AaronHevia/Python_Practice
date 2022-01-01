@@ -1,4 +1,6 @@
-import helper_functions as hf
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 from higher_lower_game_data import data
 import higher_lower_art as art
 import random
@@ -45,7 +47,7 @@ score = 0
 def result(guess, answer):
     """Prints whether the guess is right or wrong and tracks how many consecutive answers the user has gotten."""
     global score
-    hf.clear_console()
+    clear_console()
     print(art.logo)
     if guess == answer:
         score += 1
@@ -68,4 +70,4 @@ def run(account):
 
 print(art.logo)
 run(account_a)
-hf.close()
+close()

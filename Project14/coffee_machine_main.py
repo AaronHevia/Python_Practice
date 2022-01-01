@@ -1,4 +1,6 @@
-import helper_functions as hf
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 
 MENU = {
     "espresso": {
@@ -85,7 +87,7 @@ def ask():
 
 def print_report():
     """Prints the amount of resources available in the vending machine."""
-    hf.clear_console()
+    clear_console()
     print("Current resources available:")
     for resource in resources:
         print(f"{resource}:  {format_ingredients(resource)}")
@@ -139,11 +141,11 @@ def make_transaction(coffee, money_inserted, price, quarters, nickels, dimes, pe
         machine_pennies -= pennies
     elif money_inserted > price:
         change = money_inserted - price
-        hf.clear_console()
+        clear_console()
         print(f"{format_money(money_inserted)} inserted.  Here is {format_money(change)} in change.")
         make_coffee(coffee)
     else:
-        hf.clear_console()
+        clear_console()
         make_coffee(coffee)
 
 

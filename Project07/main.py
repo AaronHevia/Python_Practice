@@ -1,9 +1,10 @@
-import helper_functions
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 import random
-import hangman_dictionary as dictionary
 import hangman_art as art
+import hangman_dictionary as dictionary
 
-sys.path.append()
 chosen_word = random.choice(dictionary.word_list)
 
 display = []
@@ -22,7 +23,7 @@ while not game_over:
     print(art.lives[lives])
     print(joined_display)
     guess = input("Guess a letter:  ").lower()
-    helper_functions.clear_console()
+    clear_console()
 
     if guess in guessed_letters:
         print(f"You have already guessed the letter {guess}.  Try again.")

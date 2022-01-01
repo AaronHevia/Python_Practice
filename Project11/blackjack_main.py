@@ -8,18 +8,13 @@
 # Cards are not removed from the deck as they are drawn.
 # House wins automatically from blackjack off the draw.
 
-import os
+import sys
+sys.path.insert(1, 'E:/_GitHub/Python_Practice')
+from helper_functions import *
 import random
 from blackjack_art import logo
 
 dealer_cards = []
-
-
-def clear_console():
-    if os.name in ('ce', 'nt', 'dos'):
-        os.system('cls')
-    elif os.name in ('linux', 'osx', 'posix'):
-        os.system('clear')
 
 
 def deal_card():
@@ -101,4 +96,4 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower(
     dealer_cards = []
     play_game()
 
-input("\n\nExit")
+close()
