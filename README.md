@@ -44,4 +44,4 @@ Game which lets the user guess which person has more followers than another then
 Program which represents a coffee vending machine.  Price will fluctuate depending on type of coffee.  Refactored to show OOP paradigm as well as Procedural Programming.  Not all functionality from procedural programming exists in OOP version.  **Input Validation not fully implemented.  Future editions to account for money in machine to provide the proper amount of depending on coins in machine.**
 
 ## Project 15:  Quiz Game
-Game which asks you true or false questions and keeps track of the score.
+Game which asks you true or false questions and keeps track of the score.  **Input Validation not yet implemented.  Future iterations to include asking how many questions, question difficulty, randomizing questions, and connecting to open trivia database (https://opentdb.com) as an API.**
