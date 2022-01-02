@@ -41,4 +41,4 @@ Console game which lets the user guess a number within a certain number of guess
 Game which lets the user guess which person has more followers than another then continue until they have guessed wrong.  **Input Validation not yet implemented.  Future iterations may attempt to connect to an API to feed people and follower numbers.**
 
 ## Project 14:  Coffee Vending Machine
-Program which represents a coffee vending machine.  Price will fluctuate depending on ingredients and type of coffee.  Refactored to fit OOP paradigm.  **Input Validation not fully implemented.  Future editions to account for money in machine to provide the proper amount of depending on coins in machine.**
+Program which represents a coffee vending machine.  Price will fluctuate depending on type of coffee.  Refactored to show OOP paradigm as well as Procedural Programming.  Not all functionality from procedural programming exists in OOP version.  **Input Validation not fully implemented.  Future editions to account for money in machine to provide the proper amount of depending on coins in machine.**
