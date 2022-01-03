@@ -1,5 +1,5 @@
 # Python Practice
-100 Days of Python practice projects with Dr. Angela Yu.  Code is written as how I perceived goals at the time of the project.  Will return to them once in a while to incorporate additional features, tests, and refactoring.
+100 Days of Python practice projects with Dr. Angela Yu.  Code is written as how I perceived goals at the time of the project.  Will return to the projects after completion of challenge to incorporate additional features, tests, or refactoring.
 
 ## Project 1:  Band Name Generator
 A simple console project to practice variable naming and string concatenation.  This project creates a band name based on the city the user is born and a pet name.  **Input Validation not yet implemented.**
