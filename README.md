@@ -45,3 +45,6 @@ Program which represents a coffee vending machine.  Price will fluctuate dependi
 
 ## Project 15:  Quiz Game
 Game which asks you true or false questions and keeps track of the score.  **Input Validation not yet implemented.  Future iterations to include asking how many questions, question difficulty, randomizing questions, and connecting to open trivia database (https://opentdb.com) as an API to retrieve questions.**
+
+## Project 16:  Random Point Art Generator
+Using turtle module to replicate the art work "Flumequine" done by Damien Hirst.
