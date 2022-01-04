@@ -52,7 +52,6 @@ set_turtle(splinter, "yellow", 200)
 colors_list = ["blue", "red", "purple", "orange", "yellow"]
 turtle_list = [leonardo, rafael, donatello, michelangelo, splinter]
 
-
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color:  ")
 
 keep_racing = True
