@@ -56,6 +56,7 @@ turtle_list = [leonardo, rafael, donatello, michelangelo, splinter]
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter a color:  ")
 
 keep_racing = True
+winner = ""
 
 while keep_racing:
     result = race(turtle_list, colors_list)
@@ -66,10 +67,8 @@ race_result(winner, user_bet)
 
 screen.exitonclick()
 
-
 # def on_key_move():
 #     screen.onkey(move_forward, "w")
 #     screen.onkey(move_backward, "s")
-
 # screen.listen()
-#on_key_move()
+# on_key_move()
