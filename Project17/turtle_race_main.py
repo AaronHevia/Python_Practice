@@ -19,7 +19,7 @@ def race(turtle_object_list, colors):
     color = colors[index]
     move_pace = random.randint(1, 10)
 
-    if turtle_object.xcor() >= 390:
+    if turtle_object.xcor() >= 380:
         return False, color
     else:
         turtle_object.forward(move_pace)
