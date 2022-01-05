@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project18/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project18/snake_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake_main.py" afterDir="false" />
-    </list>
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Created grow method for snake and updated virtual environment." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1641404183383</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
+      <created>1641406099645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641406099645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created grow method for snake and updated virtual environment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created grow method for snake and updated virtual environment." />
   </component>
 </project>
