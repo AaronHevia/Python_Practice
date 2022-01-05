@@ -25,6 +25,9 @@ def on_key_move():
     screen.onkey(snake.move_left, "Left")
     screen.onkey(snake.move_right, "Right")
 
+    # Testing snake growth
+    screen.onkey(snake.grow, "a")
+
 
 game_is_on = True
 
@@ -36,22 +39,7 @@ while game_is_on:
     # Control the snake with key presses.
     on_key_move()
 
-
 # TODO:  Detect collision with food.
-
-# TODO:  Grow the snake.
-def add_body(snake_list):
-    """
-    Adds a body part to the snake.
-    @param snake_list: An array of turtle objects.
-    @return: Returns the modified snake_list.
-    """
-
-    body = Turtle()
-    body.penup()
-    body.shape("square")
-    snake.append(body)
-    return snake
 
 
 # TODO:  Create a scoreboard.

@@ -50,3 +50,15 @@ class Snake:
         """Moves the head of the snake down if it is not facing up."""
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
+
+    # Grow the snake.
+    def grow(self):
+        """Adds a body part to the snake."""
+        x = self.body[-1].xcor()
+        y = self.body[-1].ycor()
+        body = Turtle()
+        body.penup()
+        body.shape("square")
+        body.setposition(x, y)
+        body.color("white")
+        self.body.append(body)
