@@ -26,10 +26,6 @@ class Snake:
     def move(self):
         """Moves the snake towards the direction of the head."""
         for part in range(len(self.body) - 1, 0, -1):
-            # if part == snake[0]:
-            #     on_key_move(snake[part])
-            #     snake[part].forward(10)
-            # else:
             front_x = self.body[part - 1].xcor()
             front_y = self.body[part - 1].ycor()
             self.body[part].goto(front_x, front_y)
