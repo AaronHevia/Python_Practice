@@ -53,4 +53,4 @@ Using turtle module to replicate the art work "Flumequine" done by Damien Hirst.
 Using the turtle module, the "Turtle Racing Game" puts a number of turtles to race and the user/users can guess which turtle will win.  **Future iteration to include multiple betters/bets to have the feel of an actual race.**
 
 ## Project 18:  Snake Game
-Coding the classic snake game where the snake gets bigger and faster the more it eats. **Completed initial build.  Current bug when movement combination is pushed faster than refresh rate causes a game over.**
+Coding the classic snake game where the snake gets bigger. **Completed initial build.  Current bug when movement combination is pushed faster than refresh rate causes a game over.  Future updates to include increasing challenges (game speed, adding obstacles, etc).**
