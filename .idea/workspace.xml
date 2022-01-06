@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Created grow method for snake and updated virtual environment." />
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Created grow method for snake and updated virtual environment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/snake_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +29,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.snake_main">
     <configuration name="cipher_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">

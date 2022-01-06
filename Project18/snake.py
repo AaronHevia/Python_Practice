@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-STARTING_X_POSITIONS = [0, -20, -40]
+STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
 DOWN = 270
@@ -13,15 +13,25 @@ class Snake:
         self.body = []
         self.create_snake()
         self.head = self.body[0]
+        self.head.color('dark green')
 
     def create_snake(self):
         """Creates the starting body for the snake."""
-        for x in STARTING_X_POSITIONS:
-            segment = Turtle('square')
-            segment.penup()
-            segment.color("white")
-            segment.setx(x)
-            self.body.append(segment)
+        for position in STARTING_POSITIONS:
+            self.add_body_part(position)
+
+    def add_body_part(self, position):
+        """Builds a body part and places it in desired position."""
+        segment = Turtle('square')
+        segment.color('green')
+        segment.penup()
+        segment.goto(position)
+        self.body.append(segment)
+
+    # Grow the snake.
+    def grow(self):
+        """Adds a body part to the snake after eating food."""
+        self.add_body_part(self.body[-1].position())
 
     def move(self):
         """Moves the snake towards the direction of the head."""
@@ -51,14 +61,4 @@ class Snake:
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
-    # Grow the snake.
-    def grow(self):
-        """Adds a body part to the snake."""
-        x = self.body[-1].xcor()
-        y = self.body[-1].ycor()
-        body = Turtle()
-        body.penup()
-        body.shape("square")
-        body.setposition(x, y)
-        body.color("white")
-        self.body.append(body)
+
