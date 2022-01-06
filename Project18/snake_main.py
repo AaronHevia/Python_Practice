@@ -58,7 +58,7 @@ while playing:
         playing = False
         scoreboard.game_over()
     # Collision with body.
-    for part in snake.body[1:len(snake.body)]:
+    for part in snake.body[1:]:
         if snake.head.distance(part) < 10:
             playing = False
             scoreboard.game_over()
