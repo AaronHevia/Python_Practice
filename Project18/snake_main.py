@@ -18,6 +18,7 @@ screen.listen()
 # Create starting snake.
 snake = Snake()
 food = Food()
+# Create scoreboard and boundaries.
 border = Scoreboard()
 scoreboard = Scoreboard()
 scoreboard.score()
@@ -30,9 +31,6 @@ def on_key_move():
     screen.onkey(snake.move_down, "Down")
     screen.onkey(snake.move_left, "Left")
     screen.onkey(snake.move_right, "Right")
-
-    # Testing snake growth
-    screen.onkey(snake.grow, "a")
 
 
 playing = True
