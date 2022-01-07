@@ -54,3 +54,6 @@ Using the turtle module, the "Turtle Racing Game" puts a number of turtles to ra
 
 ## Project 18:  Snake Game
 Coding the classic snake game where the snake gets bigger. **Completed initial build.  Current bug when movement combination is pushed faster than refresh rate causes a game over.  Future updates to include increasing challenges (game speed, adding obstacles, etc).**
+
+## Project 19:  Pong
+Using turtle module to create the classic game of pong.
