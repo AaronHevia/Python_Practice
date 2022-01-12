@@ -12,7 +12,6 @@ POSITIONS = {
     "right_paddle": (935, -40),
     "boundary": -540,
     "scoreboard": 500
-
 }
 BOUNDS = {
     "upper": 490,

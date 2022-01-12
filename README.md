@@ -58,5 +58,5 @@ Coding the classic snake game where the snake gets bigger. **Completed initial b
 ## Project 19:  Pong
 Using turtle module to create the classic game of pong.  **Completed initial build.  Requires further adjustments to speeds as some bounces do not sync with refresh rate.** 
 
-## Project 20:  Frogger
+## Project 20:  Turtler
 A Python version of frogger.
