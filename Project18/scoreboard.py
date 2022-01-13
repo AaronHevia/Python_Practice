@@ -9,8 +9,7 @@ class Scoreboard(Turtle):
         self.color('white')
         self.points = -1
         with open('high_score.txt', 'r') as file:
-            content = int(file.read())
-        self.high_score = content
+            self.high_score = int(file.read())
 
     def draw_border(self):
         """Draws the uppermost border of playing field."""
