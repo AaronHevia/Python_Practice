@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Completed initial project 20 build.">
-      <change afterPath="$PROJECT_DIR$/Project18/high_score.txt" afterDir="false" />
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated Project 18 to track and show a high score.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project18/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project18/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project18/snake_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,7 @@
       <updated>1641404183383</updated>
       <workItem from="1641951495635" duration="7464000" />
       <workItem from="1642077387495" duration="7376000" />
-      <workItem from="1642108974485" duration="2287000" />
+      <workItem from="1642108974485" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -271,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641959006417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated Project 18 to track and show a high score.">
+      <created>1642111631863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642111631863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated Project 18 to track and show a high score.">
+      <created>1642111844786</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642111844786</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,10 +309,11 @@
     <MESSAGE value="Created project directory and project main file." />
     <MESSAGE value="Created frogger initial modules and classes." />
     <MESSAGE value="Completed initial project 20 build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed initial project 20 build." />
+    <MESSAGE value="Updated Project 18 to track and show a high score." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Project 18 to track and show a high score." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111513340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
+    <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111536336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
     <SUITE FILE_PATH="coverage/Python_Practice$frogger_main.coverage" NAME="frogger_main Coverage Results" MODIFIED="1641958583970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project20" />
   </component>
 </project>

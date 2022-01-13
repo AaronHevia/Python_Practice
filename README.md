@@ -60,3 +60,6 @@ Using turtle module to create the classic game of pong.  **Completed initial bui
 
 ## Project 20:  Turtler
 A Python version of frogger.
+
+## Project 21:  Mail Merge Program
+This program addresses a mail to multiple recipients and prepares it for printing.
