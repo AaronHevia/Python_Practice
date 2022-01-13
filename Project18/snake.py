@@ -61,4 +61,13 @@ class Snake:
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
+    def reset_snake(self):
+        """Resets the snake to its original state."""
+        for part in self.body:
+            part.goto(520, 520)
+        self.body.clear()
+        self.create_snake()
+        self.head = self.body[0]
+        self.head.color('dark green')
+
 

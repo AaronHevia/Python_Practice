@@ -3,25 +3,29 @@ from snake import Snake
 from scoreboard import Scoreboard
 from food import Food
 import time
+import keyboard
 
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 1000
+SLEEP_TIME = 0.11
 # Set playing area.
 screen = Screen()
 screen.setup(SCREEN_WIDTH, height=SCREEN_HEIGHT)
 screen.bgcolor('black')
-screen.title('My snake game.')
+screen.title('My snake game.  Press "X" to exit or ARROWS to control the snake.')
 # Animation setting.
 screen.tracer(0)
-# Get input from user
-screen.listen()
 # Create starting snake.
 snake = Snake()
 food = Food()
 # Create scoreboard and boundaries.
 border = Scoreboard()
+border.draw_border()
 scoreboard = Scoreboard()
 scoreboard.score()
+
+# Get input from user
+screen.listen()
 
 
 # Create snake control function
@@ -33,18 +37,23 @@ def on_key_move():
     screen.onkey(snake.move_right, "Right")
 
 
+on_key_move()
+
 playing = True
-sleep_time = 0.11
+
+
+def exit_game():
+    global playing
+    playing = False
+    scoreboard.game_over()
+
 
 while playing:
     screen.update()
-    time.sleep(sleep_time)
-
+    time.sleep(SLEEP_TIME)
     # Move the snake
     snake.move()
-    # TODO:  Create a timer which will not conduct the move at least until the next frame (sleep_time).
-    # Control the snake with key presses.
-    on_key_move()
+
     # Detect food collision
     if snake.head.distance(food) < 15:
         food.place_food()
@@ -53,13 +62,16 @@ while playing:
 # Determine game over:
     # Collision with wall.
     if snake.head.xcor() > 485 or snake.head.xcor() < -485 or snake.head.ycor() > 451 or snake.head.ycor() < -481:
-        playing = False
-        scoreboard.game_over()
+        scoreboard.reset_score()
+        snake.reset_snake()
     # Collision with body.
     for part in snake.body[1:]:
-        if snake.head.distance(part) < 10:
-            playing = False
-            scoreboard.game_over()
+        if part == snake.head:
+            pass
+        elif snake.head.distance(part) < 10:
+            scoreboard.reset_score()
+            snake.reset_snake()
 
-screen.listen()
+    screen.onkey(exit_game, 'x')
+
 screen.exitonclick()

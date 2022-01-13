@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Created frogger initial modules and classes.">
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Completed initial project 20 build.">
+      <change afterPath="$PROJECT_DIR$/Project18/high_score.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project19/pong_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project19/pong_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project20/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project20/car_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project20/frogger_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project20/frogger_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project20/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project20/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project20/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project20/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project18/snake_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project18/snake_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="E:\_GitHub\Python_Practice\Project20" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.frogger_main">
+  <component name="RunManager" selected="Python.snake_main">
     <configuration name="frogger_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +167,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.snake_main" />
         <item itemvalue="Python.frogger_main" />
         <item itemvalue="Python.pong_main" />
-        <item itemvalue="Python.snake_main" />
         <item itemvalue="Python.snake" />
         <item itemvalue="Python.turtle_race_main" />
       </list>
@@ -185,7 +183,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641404183383</updated>
-      <workItem from="1641951495635" duration="7283000" />
+      <workItem from="1641951495635" duration="7464000" />
+      <workItem from="1642077387495" duration="7376000" />
+      <workItem from="1642108974485" duration="2287000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641815019676</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed initial project 20 build.">
+      <created>1641959006417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641959006417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,9 +297,11 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Created project directory and project main file." />
     <MESSAGE value="Created frogger initial modules and classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created frogger initial modules and classes." />
+    <MESSAGE value="Completed initial project 20 build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed initial project 20 build." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111513340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
     <SUITE FILE_PATH="coverage/Python_Practice$frogger_main.coverage" NAME="frogger_main Coverage Results" MODIFIED="1641958583970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project20" />
   </component>
 </project>
