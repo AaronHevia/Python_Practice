@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Created Project 21 starting files.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project21/Input/Letters/starting_letter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project21/Input/Letters/starting_letter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project21/mail_merge_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project21/mail_merge_main.py" afterDir="false" />
-    </list>
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Completed Project 21 workflow." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +179,7 @@
       <updated>1641404183383</updated>
       <workItem from="1641951495635" duration="7464000" />
       <workItem from="1642077387495" duration="7376000" />
-      <workItem from="1642108974485" duration="7954000" />
+      <workItem from="1642108974485" duration="8089000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -290,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642113366831</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Completed Project 21 workflow.">
+      <created>1642117778029</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642117778029</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,11 +322,12 @@
     <MESSAGE value="Completed initial project 20 build." />
     <MESSAGE value="Updated Project 18 to track and show a high score." />
     <MESSAGE value="Created Project 21 starting files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Project 21 starting files." />
+    <MESSAGE value="Completed Project 21 workflow." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Project 21 workflow." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111536336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
-    <SUITE FILE_PATH="coverage/Python_Practice$mail_merge_main.coverage" NAME="mail_merge_main Coverage Results" MODIFIED="1642117107244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project21" />
+    <SUITE FILE_PATH="coverage/Python_Practice$mail_merge_main.coverage" NAME="mail_merge_main Coverage Results" MODIFIED="1642117713430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project21" />
     <SUITE FILE_PATH="coverage/Python_Practice$frogger_main.coverage" NAME="frogger_main Coverage Results" MODIFIED="1641958583970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project20" />
   </component>
 </project>
