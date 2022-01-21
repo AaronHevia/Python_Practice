@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Completed Project 21 workflow." />
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Completed Project 21 workflow.">
+      <change afterPath="$PROJECT_DIR$/Project22/states_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +52,7 @@
       <recent name="E:\_GitHub\Python_Practice\Project20" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mail_merge_main">
+  <component name="RunManager" selected="Python.states_main">
     <configuration name="frogger_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,28 +119,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project18" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project18/snake.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="snake_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +141,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="states_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project22" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project22/states_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.states_main" />
         <item itemvalue="Python.mail_merge_main" />
         <item itemvalue="Python.snake_main" />
         <item itemvalue="Python.frogger_main" />
         <item itemvalue="Python.pong_main" />
-        <item itemvalue="Python.snake" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +184,11 @@
       <workItem from="1641951495635" duration="7464000" />
       <workItem from="1642077387495" duration="7376000" />
       <workItem from="1642108974485" duration="8089000" />
+      <workItem from="1642537322745" duration="178000" />
+      <workItem from="1642547231945" duration="91000" />
+      <workItem from="1642687339109" duration="1641000" />
+      <workItem from="1642715125839" duration="4496000" />
+      <workItem from="1642726798772" duration="7459000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -326,6 +335,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Completed Project 21 workflow." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Practice$states_main.coverage" NAME="states_main Coverage Results" MODIFIED="1642736297024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project22" />
     <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111536336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
     <SUITE FILE_PATH="coverage/Python_Practice$mail_merge_main.coverage" NAME="mail_merge_main Coverage Results" MODIFIED="1642117713430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project21" />
     <SUITE FILE_PATH="coverage/Python_Practice$frogger_main.coverage" NAME="frogger_main Coverage Results" MODIFIED="1641958583970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project20" />

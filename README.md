@@ -63,3 +63,6 @@ A Python version of frogger.
 
 ## Project 21:  Mail Merge Program
 This program addresses a mail to multiple recipients and prepares it for printing.
+
+## Project 22:  U.S. States Game
+Guess all the names in the U.S.  Coordinates need to be readjusted and UI can be aligned for better visibility.
