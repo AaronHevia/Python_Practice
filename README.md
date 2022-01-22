@@ -68,4 +68,4 @@ This program addresses a mail to multiple recipients and prepares it for printin
 Guess all the names in the U.S.  Coordinates need to be readjusted and UI can be aligned for better visibility.  Project uses Pandas library to read and create csv data.
 
 ## Project 23:  NATO Alphabet Project
-Project "spells" a word and pronounces the letter with the NATO alphabet word.
+Project "spells" a word and pronounces each letter with the NATO phonetic alphabet.  A practice in dictionary comprehension and the use of pandas library.
