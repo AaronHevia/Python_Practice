@@ -4,7 +4,6 @@ import pandas
 TOTAL_STATES = 50
 correct_states = 0
 known_states = []
-learn_states = []
 
 # Set up game environment
 screen = turtle.Screen()
@@ -31,10 +30,8 @@ while correct_states < TOTAL_STATES:
                                     prompt='Guess a state in the U.S. or "X" to Exit:  ').title()
 
     if answer_state == 'X':
-        for state in states:
-            if state not in known_states:
-                learn_states.append(state)
-        df = pandas.DataFrame(learn_states)
+        states_to_learn = [state for state in states if state not in known_states]  # List Comprehension.
+        df = pandas.DataFrame(states_to_learn)
         df.to_csv('states_to_learn.csv')
         break
 
