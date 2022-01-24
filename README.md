@@ -69,3 +69,6 @@ Guess all the names in the U.S.  Coordinates need to be readjusted and UI can be
 
 ## Project 23:  NATO Alphabet Project
 Project "spells" a word and pronounces each letter with the NATO phonetic alphabet.  A practice in dictionary comprehension and the use of pandas library.
+
+## Project 24:  Mile to Kilometer Project
+Building a Graphical User Interface Python Project utilizing TKinter which will convert miles to kilometers.
