@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated README.md">
+      <change afterPath="$PROJECT_DIR$/Project24/converter_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +51,8 @@
       <recent name="E:\_GitHub\Python_Practice\Project20" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nato_main">
-    <configuration name="frogger_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.converter_main">
+    <configuration name="converter_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,12 +60,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project24" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project20/frogger_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project24/converter_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.converter_main" />
         <item itemvalue="Python.nato_main" />
         <item itemvalue="Python.states_main" />
         <item itemvalue="Python.mail_merge_main" />
         <item itemvalue="Python.snake_main" />
-        <item itemvalue="Python.frogger_main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +192,7 @@
       <workItem from="1642809553146" duration="6132000" />
       <workItem from="1642891201482" duration="9724000" />
       <workItem from="1642924715115" duration="5000" />
+      <workItem from="1643032964783" duration="7596000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -325,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642819404894</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated README.md">
+      <created>1643033132333</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1643033132333</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +369,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Practice$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1643058029127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project24" />
     <SUITE FILE_PATH="coverage/Python_Practice$states_main.coverage" NAME="states_main Coverage Results" MODIFIED="1642736297024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project22" />
     <SUITE FILE_PATH="coverage/Python_Practice$snake_main.coverage" NAME="snake_main Coverage Results" MODIFIED="1642111536336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project18" />
     <SUITE FILE_PATH="coverage/Python_Practice$nato_main.coverage" NAME="nato_main Coverage Results" MODIFIED="1642819095509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project23" />
