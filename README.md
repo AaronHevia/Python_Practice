@@ -72,3 +72,6 @@ Project "spells" a word and pronounces each letter with the NATO phonetic alphab
 
 ## Project 24:  Mile to Kilometer Project
 Building a Graphical User Interface Python Project utilizing TKinter which will convert miles to kilometers.
+
+## Project 25:  Pomodoro App
+Building a Pomodoro App using Tkinter.
