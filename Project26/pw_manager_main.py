@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
 import pyperclip
+import json
 
 
 EMAIL = 'email.com'
@@ -27,11 +28,41 @@ def generator():
     pyperclip.copy(password)
 
 
+# ---------------------------- SEARCH PASSWORD ------------------------------- #
+def search():
+    website = website_entry.get()
+
+    try:
+        with open('./password_manager.json', 'r') as manager:
+            # Read Data in Manager
+            data = json.load(manager)
+    except FileNotFoundError:
+        messagebox.showinfo(title='Error',
+                            message='Password Manager not found.  Create one by adding a new entry.')
+    else:
+        if website in data:
+            username = data[website]["Username/Email"]
+            password = data[website]["Password"]
+            messagebox.showinfo(title=f'{website} Info',
+                                message=f'Website:  {website}\n'
+                                        f'Username/Email: {username}\n'
+                                        f'Password:  {password}')
+
+        messagebox.showinfo(title=f'{website} Not Found',
+                            message=f'There is no history for the website you are looking for.')
+
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
     website = website_entry.get()
     username = username_entry.get()
     password = password_entry.get()
+    new_entry = {
+        website: {
+            'Username/Email': username,
+            'Password': password
+        }
+    }
 
     # Ensure there is data to save.
     if len(website) == 0 or len(username) == 0 or len(password) == 0:
@@ -41,28 +72,32 @@ def save():
         ok = messagebox.askokcancel(title=f'{website} Verification',
                                     message=f'These are the details entered:\n'
                                             f'Website:  {website}\n'
-                                            f'Username\Email:  {username}\n'
+                                            f'Username/Email:  {username}\n'
                                             f'Password:  {password}\n'
                                             f'Press OK to save or Cancel to edit.')
 
         if ok:
-            with open('./password_manager.txt', 'a+') as manager:
-                # Check if manager has any entries and create a new line at end of the last entry.
-                manager.seek(0)
-                data = manager.read()
-                if len(data) > 0:
-                    manager.write('\n')
-
-                # Write the new entry.
-                site_entry = f'{website} | {username} | {password}'
-                manager.write(site_entry)
-
-            # Delete all info and set username to default value if it was changed.
-            entries = [website_entry, username_entry, password_entry]
-            for entry in entries:
-                entry.delete(0, END)
-                if entry == username_entry:
-                    entry.insert(0, EMAIL)
+            try:
+                with open('./password_manager.json', 'r') as manager:
+                    # Read Data in Manager
+                    data = json.load(manager)
+            except FileNotFoundError:
+                with open('./password_manager.json', 'w') as manager:
+                    # Save/Write first Data to Manager
+                    json.dump(new_entry, manager, indent=4)
+            else:
+                # Update Data to Save
+                data.update(new_entry)
+                # Save/Write Data to Manager
+                with open('./password_manager.json', 'w') as manager:
+                    json.dump(data, manager, indent=4)
+            finally:
+                # Delete all info and set username to default value if it was changed.
+                entries = [website_entry, username_entry, password_entry]
+                for entry in entries:
+                    entry.delete(0, END)
+                    if entry == username_entry:
+                        entry.insert(0, EMAIL)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -76,29 +111,38 @@ canvas.create_image(100, 100, image=logo_img)
 canvas.grid(column=1, row=0)
 
 website_label = Label(text='Website:', anchor='e')
-website_label.grid(column=0, row=1)
+website_label.grid(column=0, row=1, pady=5)
 
-website_entry = Entry(width=50)
-website_entry.grid(column=1, row=1, columnspan=2)
+website_entry = Entry(width=32)
+website_entry.grid(column=1, row=1, pady=5)
 website_entry.focus()
 
-username_label = Label(text='Email/Username:', anchor='e')
-username_label.grid(column=0, row=2)
+search_button = Button(width=15, text='Search', command=search)
+search_button.grid(column=2, row=1, pady=5)
 
-username_entry = Entry(width=50)
-username_entry.grid(column=1, row=2, columnspan=2)
+username_label = Label(text='Email/Username:', anchor='e')
+username_label.grid(column=0, row=2, pady=5)
+
+username_entry = Entry(width=52)
+username_entry.grid(column=1, row=2, pady=5, columnspan=2)
 username_entry.insert(0, EMAIL)
 
 password_label = Label(text='Password:', anchor='e')
-password_label.grid(column=0, row=3)
+password_label.grid(column=0, row=3, pady=5)
 
 password_entry = Entry(width=32)
-password_entry.grid(column=1, row=3)
+password_entry.grid(column=1, row=3, pady=5)
 
-generate_button = Button(text='Generate Password', command=generator)
-generate_button.grid(column=2, row=3)
+generate_button = Button(width=15, text='Generate Password', command=generator)
+generate_button.grid(column=2, row=3, pady=5)
 
-add_button = Button(width=43, text='Add', command=save)
-add_button.grid(column=1, row=4, columnspan=2)
+add_button = Button(width=44, text='Add', command=save)
+add_button.grid(column=1, row=4, pady=5, columnspan=2)
 
-window.mainloop()
+
+def main():
+    window.mainloop()
+
+
+if __name__ == '__main__':
+    main()
