@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Added input handling.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project26/pw_manager_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project26/pw_manager_main.py" afterDir="false" />
-    </list>
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +192,7 @@
       <workItem from="1643032964783" duration="7847000" />
       <workItem from="1643116375863" duration="9837000" />
       <workItem from="1643202617662" duration="11323000" />
-      <workItem from="1643313156799" duration="8155000" />
+      <workItem from="1643313156799" duration="8954000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
@@ -379,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643316764510</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager.">
+      <created>1643324378665</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1643324378665</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +420,8 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Completed Password Manager Project." />
     <MESSAGE value="Added input handling." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added input handling." />
+    <MESSAGE value="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Practice$converter_main.coverage" NAME="converter_main Coverage Results" MODIFIED="1643058029127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project24" />
