@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager." />
+    <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pw_manager_main" />
-        <item itemvalue="Python.nato_main" />
-        <item itemvalue="Python.pomodoro_main" />
-        <item itemvalue="Python.converter_main" />
         <item itemvalue="Python.states_main" />
+        <item itemvalue="Python.pw_manager_main" />
+        <item itemvalue="Python.pomodoro_main" />
+        <item itemvalue="Python.nato_main" />
+        <item itemvalue="Python.converter_main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +195,8 @@
       <workItem from="1643116375863" duration="9837000" />
       <workItem from="1643202617662" duration="11323000" />
       <workItem from="1643313156799" duration="8954000" />
+      <workItem from="1643378845961" duration="3484000" />
+      <workItem from="1644413176464" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="Created grow method for snake and updated virtual environment.">
       <created>1641406099645</created>
