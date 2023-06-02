@@ -8,6 +8,7 @@ A simple console project to practice variable naming and string concatenation.  
 
 ## Project 2:  Tip Calculator (Console)
 A console based project which will calculate how much to tip and determine how much each person will pay when splitting the bill.  This is a practice of proper use of primitive data types, basic mathematical operations in python, number manipulation, and using f strings in python.  
+***06/02/2023 Update:*** Refactored project to calling a series of functions. This reflects practicing in building the project using procedural programming and making each sequence modular.  
 **Input Validation not yet implemented.**
 
 ## Project 3:  Treasure Island (Console)
