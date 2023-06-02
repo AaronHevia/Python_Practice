@@ -67,7 +67,7 @@ def print_bill(person, amount) -> None:
     """
     word = "buyer"
     if person > 1:
-        word = "buyer"
+        word = "buyers"
 
     total_per_person = "{:.2f}".format(amount)
     print(f"{person} {word} will pay ${total_per_person}")
