@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="979911a8-a906-4995-b25f-d07d56b5f7f2" name="Changes" comment="Updated Password Manager to support saving in JSON.  Added search feature to search if site exists in Password Manager.">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project01/band_name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project01/band_name_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project02/tip_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project02/tip_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

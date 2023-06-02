@@ -2,8 +2,8 @@
 100 Days of Python practice projects with Dr. Angela Yu.  Code is written as how I perceived goals at the time of the project.  Will return to the projects after completion of challenge to incorporate additional features, tests, or refactoring.
 
 ## Project 1:  Band Name Generator (Console)
-A simple console project to practice variable naming and string concatenation.  This project creates a band name based on the city the user is born and a pet name.
-06/01/2023 Update: Updated project to calling a series of functions. This reflects practicing in building the project using procedural programming and making each sequence modular.
+A simple console project to practice variable naming and string concatenation.  This project creates a band name based on the city the user is born and a pet name.  
+06/01/2023 Update: Updated project to calling a series of functions. This reflects practicing in building the project using procedural programming and making each sequence modular.  
 **Input Validation not yet implemented.**
 
 ## Project 2:  Tip Calculator (Console)
